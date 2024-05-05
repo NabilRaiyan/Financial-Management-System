@@ -24,31 +24,34 @@
 <!-- middle section  -->
 
 <div class="middle-section">
-    <h1 class="middle-title">Why Us?</h1>
+    <h1 class="middle-title">Why Choose Us?</h1>
+    <p class="middle-sub-title">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel alias doloribus, modi enim assumenda ex facere expedita?
+    </p>
     <div class="middle-sub-section">
-        <p class="middle-description">
+    <img class="middle-img-1" src="../assets/middle-img-1.png" alt="" srcset="">
+        <p class="middle-description-1">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, ut quibusdam. 
             Nesciunt vitae nulla officia blanditiis, dignissimos enim laudantium assumenda minima, quisquam architecto corporis, necessitatibus quaerat iusto facere repellat recusandae.
         </p>
-        <img class="middle-img" src="../assets/middle-img-1.png" alt="" srcset="">
     </div>
 
 
     <div class="middle-sub-section">
-        <p class="middle-description">
+    <img class="middle-img-2" src="../assets/middle-img-2.png" alt="" srcset="">
+        <p class="middle-description-2">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, ut quibusdam. 
             Nesciunt vitae nulla officia blanditiis, dignissimos enim laudantium assumenda minima, quisquam architecto corporis, necessitatibus quaerat iusto facere repellat recusandae.
         </p>
-        <img class="middle-img" src="../assets/middle-img-2.png" alt="" srcset="">
     </div>
 
 
     <div class="middle-sub-section">
-        <p class="middle-description">
+    <img class="middle-img-3" src="../assets/middle-img-3.png" alt="" srcset="">
+        <p class="middle-description-3">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, ut quibusdam. 
             Nesciunt vitae nulla officia blanditiis, dignissimos enim laudantium assumenda minima, quisquam architecto corporis, necessitatibus quaerat iusto facere repellat recusandae.
         </p>
-        <img class="middle-img" src="../assets/middle-img-3.png" alt="" srcset="">
     </div>
     
 </div>
