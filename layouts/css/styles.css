@@ -92,10 +92,8 @@ body{
 }
 
 .left-upper-section{
-    width: 90vw;
     background-color: var(--background-color);
-    margin: 10px auto;
-    border-radius: 8px;
+    margin: 0px auto 20px;
     padding: 10px;
     background-image: url('../assets/homeBg.jpeg');
     
