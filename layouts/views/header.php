@@ -1,8 +1,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizza Market</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <title>FinTech</title>
+    <link rel="stylesheet" href="../css/styles.css">
 
     <!-- animation on scroll -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -18,7 +18,7 @@
 
 <nav class="navbar">
     <div class="nav-menu-div">
-        <a href="#" class="logo">FinTech</a>
+        <a href="#" class="logo"><span class="logo-img">F</span>inTech</a>
         <ul class="nav-menu-list">
             <li class="nav-menu"><a href="#" class="menu-link">Home</a></li>
             <li class="nav-menu"><a href="#" class="menu-link">Services</a></li>
