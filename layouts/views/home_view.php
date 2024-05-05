@@ -6,9 +6,6 @@
 <div class="upper-section">
     <?php include "./header.php"; ?>
 
-
-    <!-- left upper section  -->
-
     <div class="left-upper-section" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
         
         <h1 class="upper-title">
@@ -21,8 +18,39 @@
        
         
     </div>
+</div>
 
-   
+
+<!-- middle section  -->
+
+<div class="middle-section">
+    <h1 class="middle-title">Why Us?</h1>
+    <div class="middle-sub-section">
+        <p class="middle-description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, ut quibusdam. 
+            Nesciunt vitae nulla officia blanditiis, dignissimos enim laudantium assumenda minima, quisquam architecto corporis, necessitatibus quaerat iusto facere repellat recusandae.
+        </p>
+        <img class="middle-img" src="../assets/middle-img-1.png" alt="" srcset="">
+    </div>
+
+
+    <div class="middle-sub-section">
+        <p class="middle-description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, ut quibusdam. 
+            Nesciunt vitae nulla officia blanditiis, dignissimos enim laudantium assumenda minima, quisquam architecto corporis, necessitatibus quaerat iusto facere repellat recusandae.
+        </p>
+        <img class="middle-img" src="../assets/middle-img-2.png" alt="" srcset="">
+    </div>
+
+
+    <div class="middle-sub-section">
+        <p class="middle-description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, ut quibusdam. 
+            Nesciunt vitae nulla officia blanditiis, dignissimos enim laudantium assumenda minima, quisquam architecto corporis, necessitatibus quaerat iusto facere repellat recusandae.
+        </p>
+        <img class="middle-img" src="../assets/middle-img-3.png" alt="" srcset="">
+    </div>
+    
 </div>
 
 

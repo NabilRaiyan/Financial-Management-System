@@ -96,6 +96,8 @@ body{
     margin: 0px auto 20px;
     padding: 50px;
     background-image: url('../assets/homeBg.jpeg');
+    opacity: 1.5;
+    image-rendering: pixelated;
     
 }
 
@@ -129,7 +131,7 @@ body{
 }
 
 .get-started-btn:hover{
-    color: white;
+    color: rgb(22, 22, 22);
     background-color: #f8bd46;
 }
 
