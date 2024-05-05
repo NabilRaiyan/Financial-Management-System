@@ -11,30 +11,17 @@
 
     <div class="left-upper-section" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
         <h1 class="upper-title">
-            Good <span class="title-word-color-black">Food</span> <br>
-            <span class="title-word-color-black">& Good</span> <br> Moments
+            Best Way <span class="title-word-color-black">To</span> <br>
+            <span class="title-word-color-black">Save your</span> <br> Money
         </h1> 
-        <p class="upper-description">
-            Eat the food you want to eat. don't need to come to us. Just make a call and we will be at your door with
-            your yummy food.Eat the food you want to eat. don't need to come to us. Just make a call and we will be at your door with
-            your yummy food.
-        </p>
+       
         
-        <a href="#" class="view-menu-btn">View Menu</a>
-        <h5 class="txt-happy-customer">Our Happy Customers</h5>
-        <img class="customer-img" src="../images/people.png" alt="customer img" srcset="">
-        <h6 class="review-text">+12.5k Review</h6>
+        <a href="#" class="view-menu-btn">Get Started</a>
+       
         
     </div>
 
-    <!-- right upper setion -->
-    <div class="right-upper-section" data-aos="fade-up" data-aos-duration="2000">
-        <img class="pizza-img-1" src="../images/pizza-circle.png" alt="" srcset="">
-        <img class="pizza-img-2" src="../images/pizza-circle-2.png" alt="" srcset="">
-        <img class="pizza-img-3" src="../images/pizza-circle-2.png" alt="" srcset="">
-        <img class="pizza-img-4" src="../images/pizza-circle-2.png" alt="" srcset="">
-     
-    </div>
+   
 </div>
 
 

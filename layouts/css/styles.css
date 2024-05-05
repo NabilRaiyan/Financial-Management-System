@@ -103,19 +103,6 @@ body{
     
 }
 
-.right-upper-section{
-    width: 49vw;
-    float: right;
-    margin: 10px 5px 20px 0;
-    border-radius: 8px;
-}
-
-.customer-img{
-    margin: 70px 30px 10px 0;
-    width: 30px;
-    position: relative;
-
-}
 
 
 .upper-title{
@@ -126,17 +113,7 @@ body{
     margin: 20px 0 15px 50px;
 }
 
-.upper-description{
-    text-align: justify;
-    line-height: 1.3;
-    margin: 0 70px 30px 50px;
-    width: 75%;
-    color: var(--body-text-color);
-    font-family: var(--body-text);
-    font-size: 1.1rem;
 
-   
-}
 .title-word-color-black{
     color: black;
 }
