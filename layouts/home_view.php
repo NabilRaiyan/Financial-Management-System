@@ -16,7 +16,7 @@
         </h1> 
        
         
-        <a href="#" class="view-menu-btn">Get Started</a>
+        <a href="#" class="get-started-btn">Get Started</a>
        
         
     </div>

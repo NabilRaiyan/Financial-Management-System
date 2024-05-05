@@ -3,7 +3,7 @@
 
 :root{
     --nav-text-color: #5f5f5f;
-    --background-color: #FCF5F5;
+    --background-color: #fff;
     --main-bg-color: #FFFFFF;
     --title-text: "Playfair Display", serif;
     --nav-menu-text: font-family: "Montserrat", sans-serif;
@@ -11,6 +11,7 @@
     --body-text-color: rgb(133, 133, 133);
     --rating-color: #ED7239;
     --btn-color: #EB662B;
+    --nav-bg-color:  #FBE6BE;
 }
 
 
@@ -22,7 +23,7 @@ body{
 /* navbar and logo styles */
 
 .navbar{
-    background-color: var(--background-color);
+    background-color: var(--nav-bg-color);
 
 }
 .menu-link{
@@ -46,14 +47,16 @@ body{
     font-size: 1.1rem;
 }
 
-.login, .signup{
-    background-color: rgb(255, 221, 0);
-    padding: 10px;
+.signup{
+    background-color: #F7CB73;
+    padding: 8px;
     border-radius: 8px;
+
 }
 
+
 .logo{
-    color: white;
+    color: blue;
     font-family: var(--title-text);
     font-optical-sizing: auto;
     font-weight: 700;
@@ -63,29 +66,19 @@ body{
     margin: 35px;
     padding: 8px;
     display: inline;
-    background-color: #ED6E2D;
+    background-color: var(--nav-bg-color);
 }
 
 
 .nav-menu-div{
-    background-color: var(--background-color);
-    margin: 30px 30px;
+    background-color: var(--nav-bg-color);
+    padding: 15px;
 }
 
 .menu-link:hover{
-    color: #EC662B;
+    color: #2b8fec;
 }
 
-/* navbar cart menu */
-.cart{
-    color: black;
-    display: inline;
-}
-
-.cart-menu{
-    float: right;
-    margin-top: 10px;
-}
 
 
 /* styling upper section */
@@ -121,8 +114,8 @@ body{
 /* view menu style */
 
 
-.view-menu-btn{
-    background-color: #EC662B;
+.get-started-btn{
+    background-color: #F7CB73;
     color: white;
     font-family: var(--nav-menu-text);
     font-size: 1rem;
