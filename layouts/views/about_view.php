@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<title>About Us</title>
 
 <?php include "./header.php" ?>
 
 
-
-<div class="about-us-div">
-    <h1 class="about-title">About Us</h1>
+<h1 class="about-title">About Us</h1>
+<div class="about-us-div" data-aos="fade-left" data-aos-duration="1000">
     <h3 class="about-subtitle">How It Started</h3>
     <h1 class="about-description">
-        Our Dream is Global Money Transformation
+        Our Dream is <br> Global Money <br> Transformation
     </h1>
     <p class="about-sub-description">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ratione natus repudiandae a, officiis libero ipsam incidunt quasi unde itaque impedit alias iste quibusdam, quaerat ipsum debitis, accusamus molestias quos!
@@ -20,8 +20,8 @@
     </p>
 </div>
 
-<div class="about-img-div">
-    <img src="../assets/about us.png" alt="about image" srcset="">
+<div class="about-img-div" data-aos="fade-right" data-aos-duration="1000">
+    <img class="about-img" src="../assets/about us.png" alt="about image" srcset="">
 </div>
 
 
