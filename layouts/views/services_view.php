@@ -3,8 +3,8 @@
     <title>Our Services</title>
     <?php include "./header.php" ?>
 
-    <h1 class="service-title">Our Services & Pricing</h1>
-    <h3 class="service-subtitle">
+    <h1 class="service-title" data-aos="fade-up" data-aos-duration="1000">Our Services & Pricing</h1>
+    <h3 class="service-subtitle" data-aos="fade-down" data-aos-duration="1000">
         Predictable pricing, no surprises, from individual user to business owners
     </h3>
 
