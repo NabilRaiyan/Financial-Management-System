@@ -3,6 +3,18 @@
     <title>Our Services</title>
     <?php include "./header.php" ?>
 
+    <h1 class="service-title">Our Services & Pricing</h1>
+    <h3 class="service-subtitle">
+        Predictable pricing, no surprises, from individual user to business owners
+    </h3>
+
+    <div class="service-card-list">
+        <?php 
+            for ($i = 0; $i < 3; $i++){
+                include "./service_card_view.php";
+            }
+         ?>
+    </div>
 
 
 
