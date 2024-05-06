@@ -14,7 +14,7 @@
         </h1>
        
         
-        <a href="#" class="get-started-btn">Get Started</a>
+        <a href="./services_view.php" class="get-started-btn">Get Started</a>
        
         
     </div>

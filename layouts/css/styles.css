@@ -382,7 +382,13 @@ service page style */
     text-align: left;
     background-color: var(--nav-bg-color);
     padding: 35px;
-    margin: 30px;
+    margin: 20px 30px;
+    border: 1px solid #0037ffa1;
+    border-radius: 7px;
+}
+
+.service-card:hover{
+    box-shadow: 5px 5px 2px 1px #ffaa0066;
 }
 
 .card-title{
@@ -395,7 +401,7 @@ service page style */
 
 .card-subtitle{
     font-family: var(--title-text);
-    color: var(--title-text-color);
+    color: #2f00ffda;
     font-size: 2rem;
     margin: 7px 3px;
 }
@@ -403,7 +409,25 @@ service page style */
 .money{
     font-family: var(--title-text);
     font-size: 1.2rem;
-    color: var(--title-text-color);
+    color: #2f00ffda;
     font-weight: bold;
     margin: 3px;
+}
+
+.service-title, .service-subtitle{
+    text-align: center;
+    line-height: 2;
+}
+.service-title{
+    margin: 70px 0 0;
+    font-family: var(--title-text);
+    font-size: 3rem;
+    color: var(--title-text-color);
+}
+
+.service-subtitle{
+    margin: 0 0 10px;
+    color: #2f00ffda;
+    font-family: var(--body-text);
+    font-size: 1.2rem;
 }
