@@ -39,7 +39,7 @@
 
 
     <div class="middle-sub-section" data-aos="fade-down" data-aos-duration="1000">
-    <img class="middle-img-2" src="../assets/middle-img-2.png" alt="" srcset="">
+    <img class="middle-img-2" src="../assets/middle-img-2.png" alt="home page background" srcset="">
         <p class="middle-description-2">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, ut quibusdam. 
             Nesciunt vitae nulla officia blanditiis, dignissimos enim laudantium assumenda minima, quisquam architecto corporis, necessitatibus quaerat iusto facere repellat recusandae.
