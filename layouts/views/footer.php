@@ -11,15 +11,20 @@
             <li class="nav-menu"><a href="#" class="menu-link">Services</a></li><br>
             <li class="nav-menu"><a href="#" class="menu-link">About Us</a></li><br>
             <li class="nav-menu"><a href="#" class="menu-link">Contact us</a></li><br>
-        </div>
 
+        </div>
         <div class="section-3">
             <p class="section-3-description">
                 Want a best financial tips? <br>
                 We send our tips on every week in a newsletter. <br>
+            </p>
+            <form action="" method="">
                 <input type="text" placeholder="Your-Email" class="newsletter-input">
                 <button type="submit" class="newsletter-submit-btn">Sign Up</button>
-            </p>
+            </form>
+            
         </div>
+        
+
     </div>
 </footer>
