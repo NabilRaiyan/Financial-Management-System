@@ -584,6 +584,9 @@ service page style */
     font-size: 1.2rem;
     line-height: 1.5;
 }
+.address{
+    margin-left: 8px;
+}
 
 .contact-icon{
     color: rgb(98, 0, 255);

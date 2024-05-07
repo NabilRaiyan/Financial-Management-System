@@ -7,13 +7,13 @@
 <!-- contact us page -->
 
 <!-- contact title and subtitle -->
-<h1 class="contact-title">Get In Touch</h1>
+<h1 class="contact-title" data-aos="fade-up" data-aos-duration="1000">Get In Touch</h1>
 
-<p class="contact-subtitle">Let's make something big together!</p>
+<p class="contact-subtitle" data-aos="fade-down" data-aos-duration="1000">Let's make something big together!</p>
 <!-- contact body -->
 <div class="contact-body">
     <!-- left section -->
-    <div class="left-section">
+    <div class="left-section" data-aos="fade-left" data-aos-duration="1000">
         <h1 class="left-section-title">Mail Us</h1>
         <p class="left-section-body">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet molestias quisquam dolor maxime? Necessitatibus nulla, 
@@ -25,7 +25,7 @@
         <p class="address"><i class="contact-icon fa-solid fa-1x fa-location-dot"></i>123 Main Street <br> <span>Anytown, USA</span></p>
     </div>
 
-    <div class="right-section">
+    <div class="right-section" data-aos="fade-right" data-aos-duration="1000">
         <p class="contact-form-title">Please fill this form in a decent manner</p>
         <form class="contact-form" action="" method="post">
             <input placeholder="Your Name" type="text" class="contact-username">
