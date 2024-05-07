@@ -644,7 +644,7 @@ service page style */
     background-color: var(--card-color);
     border-radius: 7px;
     width: 80vw;
-    height: 70vh;
+    height: 72vh;
     background-color: #FFFFFF;
     border: 2px solid #E6E6E6;
 }
@@ -652,10 +652,10 @@ service page style */
 .login-div .left-section{
     display: inline-block;
     width: 33vw;
-    margin: 20px;
+    margin: 25px 20px 20px;
     padding: 35px;
     position: relative;
-    bottom: 70px;
+    bottom: 40px;
     text-align: center;
     background-color: var(--card-color);
     border-radius: 8px;
@@ -677,9 +677,26 @@ service page style */
 .login-user-email-input, .login-user-password-input, .forgot-pass, .login-btn{
     display: block;
     margin: 20px;
+    
+
 }
 .login-user-email-input, .login-user-password-input{
     margin: 20px auto;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid blue;
+    background-color: var(--card-color);
+    width: 60%;
+    height: 40px;
+}
+.login-user-email-input:hover, .login-user-password-input:hover{
+    border-bottom: 1px solid rgb(255, 174, 0);
+}
+.login-user-email-input::placeholder, .login-user-password-input::placeholder{
+    font-family: var(--body-text);
+    color: var(--title-text-color);
+    font-weight: 300;
+    font-size: 1.1rem;
 }
 
 .login-div .right-section{
