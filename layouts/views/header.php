@@ -26,8 +26,8 @@
             <li class="nav-menu"><a href="./services_view.php" class="menu-link">Services</a></li>
             <li class="nav-menu"><a href="./about_view.php" class="menu-link">About Us</a></li>
             <li class="nav-menu"><a href="./contact_view.php" class="menu-link">Contact us</a></li>
-            <li class="nav-menu login"><a href="#" class="menu-link">Login</a></li>
-            <li class="nav-menu signup"><a href="#" class="sign-up-menu menu-link">Sign Up</a></li>
+            <li class="nav-menu login"><a href="./login_view.php" class="menu-link">Login</a></li>
+            <li class="nav-menu signup"><a href="./services_view.php" class="sign-up-menu menu-link">Sign Up</a></li>
         </ul>
     </div>
 </nav>
