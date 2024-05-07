@@ -19,7 +19,7 @@
             <a href="#" class="login-btn">Log In</a>
         </form>
         <p class="other-login-txt">Login with others</p>
-        <a href="#" class="google-login-option">Google Login</a>
+        <a href="#" class="google-login-option"><i class="google-icon fa-brands fa-google"></i>Google Login</a>
     </div>
 
     <!-- right section -->
