@@ -576,3 +576,21 @@ service page style */
     background-color: rgb(0, 0, 0);
     color: rgb(28, 255, 153);
 }
+
+.phone-number, .address{
+    margin: 25px 0;
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.contact-icon{
+    color: rgb(98, 0, 255);
+    margin-right: 20px;
+
+}
+
+.address span{
+    margin-left: 35px;
+}

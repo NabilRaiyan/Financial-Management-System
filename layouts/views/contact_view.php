@@ -18,9 +18,11 @@
         <p class="left-section-body">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet molestias quisquam dolor maxime? Necessitatibus nulla, 
             deleniti quaerat dolorum laboriosam vero labore, iste adipisci amet placeat odit doloremque natus beatae inventore.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Placeat, animi quasi porro rem doloremque tenetur nulla, ducimus ut itaque fugit perspiciatis quaerat similique ab magnam blanditiis! Nesciunt sint officiis in!
         </p>
-        <p class="phone-number"><i class="fa-solid fa-2x fa-phone-volume"></i>+1-780-2843810</p>
-        <p class="address"><i class="fa-solid fa-2x fa-location-dot"></i>123 Main Street <br> Anytown, USA</p>
+        <p class="phone-number"><i class="contact-icon fa-solid fa-1x fa-phone-volume"></i>+1-780-2843810</p>
+        <p class="address"><i class="contact-icon fa-solid fa-1x fa-location-dot"></i>123 Main Street <br> <span>Anytown, USA</span></p>
     </div>
 
     <div class="right-section">
