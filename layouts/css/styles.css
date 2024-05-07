@@ -475,8 +475,8 @@ service page style */
 }
 
 .sign-up-btn:hover{
-    background-color: #2e00f9eb;
-    color: white;
+    background-color: rgb(29, 29, 29);
+    color: rgb(28, 255, 153);
 }
 
 /* ---------------------------------------------------------- */
