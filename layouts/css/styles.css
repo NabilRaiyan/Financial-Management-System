@@ -461,6 +461,8 @@ service page style */
     color: white;
 }
 
+/* ---------------------------------------------------------- */
+
 
 /* contact us page style */
 .contact-title, .contact-subtitle{
@@ -494,7 +496,8 @@ service page style */
 .right-section{
     display: inline-block;
     width: 40vw;
-    margin-left: 40px;
+    margin: 0 0 0 40px;
+    
 }
 .contact-username, .contact-email, .contact-address, .contact-message{
     display: block;
@@ -506,7 +509,7 @@ service page style */
     height: 90px;
 }
 .contact-form{
-    margin-left: 20px;
+    margin: 40px 0 0 20px;
 }
 
 .contact-form-title{
