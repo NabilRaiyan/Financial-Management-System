@@ -480,3 +480,54 @@ service page style */
     font-size: 1.3rem;
     margin-bottom: 30px;
 }
+
+.contact-body{
+    margin: 30px;
+    padding: 20px;
+}
+
+.left-section{
+    display: inline-block;
+    width: 45vw;
+}
+
+.right-section{
+    display: inline-block;
+    width: 40vw;
+    margin-left: 40px;
+}
+.contact-username, .contact-email, .contact-address, .contact-message{
+    display: block;
+    margin: 20px;
+    width: 50%;
+    height: 30px;
+}
+.contact-message{
+    height: 90px;
+}
+.contact-form{
+    margin-left: 20px;
+}
+
+.contact-form-title{
+    color: rgb(3, 148, 221);
+    font-family: var(--body-text);
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+
+.left-section-title{
+    font-size: 3.5rem;
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+}
+
+.left-section-body{
+    font-size: 1.4rem;
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    margin: 20px 0;
+} 
