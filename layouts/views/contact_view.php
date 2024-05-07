@@ -27,11 +27,12 @@
 
     <div class="right-section" data-aos="fade-right" data-aos-duration="1000">
         <p class="contact-form-title">Please fill this form in a decent manner</p>
+        
         <form class="contact-form" action="" method="post">
-            <input placeholder="Your Name" type="text" class="contact-username">
-            <input placeholder="Your Email" type="text" class="contact-email">
-            <input placeholder="Your Address" type="text" class="contact-address">
-            <textarea placeholder="Your Message" name="" id="" class="contact-message"></textarea>
+            <input name="contact-user-name" placeholder="Your Name" type="text" class="contact-username">
+            <input name="contact-user-email" placeholder="Your Email" type="text" class="contact-email">
+            <input name="contact-user-address" placeholder="Your Address" type="text" class="contact-address">
+            <textarea name="contact-user-message" placeholder="Your Message" class="contact-message"></textarea>
             <button type="submit" class="contact-submit-btn">Send Message</button>
         </form>
     </div>

@@ -19,7 +19,7 @@
                 We send our tips on every week in a newsletter. <br>
             </p>
             <form action="" method="">
-                <input type="text" placeholder="Your-Email" class="newsletter-input">
+                <input name="newsletter-email" type="text" placeholder="Your-Email" class="newsletter-input">
                 <button type="submit" class="newsletter-submit-btn">Sign Up</button>
             </form>
             
