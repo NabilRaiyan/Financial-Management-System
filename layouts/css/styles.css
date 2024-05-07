@@ -501,15 +501,38 @@ service page style */
 }
 .contact-username, .contact-email, .contact-address, .contact-message{
     display: block;
-    margin: 20px;
-    width: 50%;
-    height: 30px;
+    margin: 20px auto;
+    width: 60%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fdc03a;
+    background-color: #F6F3ED;
+    font-weight: 100;
 }
+
+.contact-username::placeholder, .contact-email::placeholder, .contact-address::placeholder, .contact-message::placeholder
+{
+    font-size: 1rem;
+    color: var(--title-text-color);
+    font-family: var(--body-text);
+    padding: 7px 7px 7px 0;
+}
+
+.contact-username:hover, .contact-email:hover, .contact-address:hover, .contact-message:hover{
+    border-bottom: 2px solid #59c8ff;
+}
+
+
 .contact-message{
     height: 90px;
 }
 .contact-form{
     margin: 40px 0 0 20px;
+    text-align: center;
+    background-color: #F6F3ED;
+    padding: 30px;
+    border-radius: 7px;
 }
 
 .contact-form-title{
@@ -518,7 +541,6 @@ service page style */
     font-size: 1.3rem;
     margin-bottom: 30px;
     text-align: center;
-
 }
 
 
@@ -526,11 +548,15 @@ service page style */
     font-size: 3.5rem;
     font-family: var(--title-text);
     color: var(--title-text-color);
+    margin: 0 0 48px;
 }
 
 .left-section-body{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-family: var(--body-text);
     color: var(--body-text-color);
-    margin: 20px 0;
+    margin: 0 0 50px 0;
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word;
 } 
