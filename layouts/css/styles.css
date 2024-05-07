@@ -5,9 +5,9 @@
     --nav-text-color: #505050;
     --background-color: #fff;
     --main-bg-color: #FFFFFF;
-    --title-text: "Playfair Display", serif;
-    --nav-menu-text: font-family: "Montserrat", sans-serif;
-    --body-text: font-family: "Montserrat", sans-serif;
+    --title-text: "Poppins", sans-serif;
+    --nav-menu-text: "Inter", sans-serif;
+    --body-text: "DM Sans", sans-serif;
     --body-text-color: #7f7e7e;
     --rating-color: #ED7239;
     --btn-color: #EB662B;
@@ -45,7 +45,7 @@ body{
     display: inline;
     margin: 30px;
     font-family: var(--nav-menu-text);
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .signup{
@@ -111,6 +111,8 @@ body{
     font-family: var(--title-text);
     font-weight: 900;
     margin: 20px 0 25px 50px;
+    font-weight: 600;
+
 }
 
 
@@ -156,6 +158,8 @@ body{
     font-family: var(--title-text);
     color: rgb(68, 68, 68);
     font-size: 2.5rem;
+    font-weight: 600;
+
 }
 
 .middle-sub-title{
@@ -163,7 +167,7 @@ body{
     text-align: center;
     font-family: var(--body-text);
     color: var(--body-text-color);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
@@ -185,6 +189,7 @@ body{
     font-family: var(--body-text);
     line-height: 1.3;
     text-justify: inter-word;
+    font-weight: 300;
     
 }
 
@@ -228,6 +233,7 @@ body{
     color: white;
     font-size: 1rem;
     font-family: var(--body-text);
+    font-weight: 300;
     
 }
 .section-2 .menu-link{
@@ -258,7 +264,7 @@ body{
 
 .footer-address{
     position: relative;
-    left: 4%;
+    left: 5%;
 }
 
 .section-2{
@@ -319,6 +325,7 @@ body{
     color: var(--title-text-color);
     font-size: 2.5rem;
     font-family: var(--title-text);
+    font-weight: 600;
 }
 
 .about-subtitle{
@@ -328,22 +335,27 @@ body{
     font-size: 1.7rem;
     margin-bottom: 60px;
     margin-left: 15px;
+    font-weight: 800;
+
 }
 
 .about-description{
     color: var(--title-text-color);
-    font-size: 5rem;
+    font-size: 4.6rem;
     font-family: var(--title-text);
+    font-weight: 600;
+
 }
 
 .about-sub-description{
     color: var(--body-text-color);
     margin: 15px;
     font-family: var(--body-text);
-    line-height: 1.3;
+    line-height: 1.5;
     text-align: justify;
     text-justify: inter-word;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 .about-img-div{
@@ -389,29 +401,33 @@ service page style */
 .card-title{
     font-family: var(--title-text);
     color: var(--title-text-color);
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin: 3px;
+    font-weight: 600;
 
 }
 
 .card-subtitle{
     font-family: var(--title-text);
     color: #2f00ffda;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin: 7px 3px;
+    font-weight: 600;
 }
 
 .money{
     font-family: var(--title-text);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #2f00ffda;
     font-weight: bold;
     margin: 3px 3px 15px;
+    font-weight: 600;
 }
 
 .service-title, .service-subtitle{
     text-align: center;
     line-height: 2;
+    font-weight: 600;
 }
 .service-title{
     margin: 70px 0 0;
@@ -424,7 +440,7 @@ service page style */
     margin: 0 0 10px;
     color: #5a5a5ada;
     font-family: var(--body-text);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .feature-list li{
@@ -474,6 +490,8 @@ service page style */
     margin: 60px auto 10px;
     font-family: var(--title-text);
     color: var(--title-text-color);
+    font-weight: 600;
+
 }
 
 .contact-subtitle{
@@ -496,7 +514,7 @@ service page style */
 .right-section{
     display: inline-block;
     width: 40vw;
-    margin: 0 0 0 40px;
+    margin: 20px 0 0 40px;
     
 }
 .contact-username, .contact-email, .contact-address, .contact-message{
@@ -509,12 +527,14 @@ service page style */
     border-bottom: 1px solid #ffae00;
     background-color: #F6F3ED;
     font-weight: 100;
+    font-weight: 200;
+
 }
 
 .contact-username::placeholder, .contact-email::placeholder, .contact-address::placeholder, .contact-message::placeholder
 {
     font-size: 1rem;
-    color: var(--title-text-color);
+    color: rgb(38, 38, 38);
     font-family: var(--body-text);
     padding: 7px 7px 7px 0;
 }
@@ -528,7 +548,7 @@ service page style */
     height: 90px;
 }
 .contact-form{
-    margin: 40px 0 0 20px;
+    margin: 45px 0 0 20px;
     text-align: center;
     background-color: #F6F3ED;
     padding: 30px;
@@ -539,8 +559,9 @@ service page style */
     color: rgb(3, 148, 221);
     font-family: var(--body-text);
     font-size: 1.3rem;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     text-align: center;
+    font-weight: 300;
 }
 
 
@@ -548,17 +569,20 @@ service page style */
     font-size: 3.5rem;
     font-family: var(--title-text);
     color: var(--title-text-color);
-    margin: 0 0 35px;
+    margin: 0 0 30px;
+    font-weight: 600;
+
 }
 
 .left-section-body{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: var(--body-text);
     color: var(--body-text-color);
     margin: 0 0 50px 0;
     line-height: 1.5;
     text-align: justify;
     text-justify: inter-word;
+    font-weight: 300;
 } 
 
 .contact-submit-btn{
@@ -583,6 +607,7 @@ service page style */
     color: var(--body-text-color);
     font-size: 1.2rem;
     line-height: 1.5;
+    font-weight: 300;
 }
 .address{
     margin-left: 8px;
