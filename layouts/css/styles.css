@@ -506,7 +506,7 @@ service page style */
     height: 40px;
     border: none;
     outline: none;
-    border-bottom: 1px solid #fdc03a;
+    border-bottom: 1px solid #ffae00;
     background-color: #F6F3ED;
     font-weight: 100;
 }
@@ -548,7 +548,7 @@ service page style */
     font-size: 3.5rem;
     font-family: var(--title-text);
     color: var(--title-text-color);
-    margin: 0 0 48px;
+    margin: 0 0 35px;
 }
 
 .left-section-body{
