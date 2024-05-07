@@ -15,7 +15,7 @@
         <form action="" method="post">
             <input placeholder="Enter email" class="login-user-email-input" name="login-email" type="text">
             <input placeholder="Enter password" class="login-user-password-input" name="login-password" type="text">
-            <a href="#" class="forgot-pass">Forgot password?</a>
+            <a href="./forgot_pass_view.php" class="forgot-pass">Forgot password?</a>
             <a href="#" class="login-btn">Log In</a>
         </form>
         <p class="other-login-txt">Login with others</p>
