@@ -460,3 +460,23 @@ service page style */
     background-color: #2e00f9eb;
     color: white;
 }
+
+
+/* contact us page style */
+.contact-title, .contact-subtitle{
+    text-align: center;
+}
+
+.contact-title{
+    font-size: 3rem;
+    margin: 60px auto 10px;
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+}
+
+.contact-subtitle{
+    color: var(--body-text-color);
+    font-family: var(--body-text);
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
