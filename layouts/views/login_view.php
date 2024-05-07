@@ -5,10 +5,10 @@
 <?php include "./header.php"; ?>
 
 
-<div class="login-div">
+<div class="login-div" data-aos="fade-up" data-aos-duration="1000">
 
     <!-- left section  -->
-    <div class="left-section">
+    <div class="left-section" data-aos="fade-left" data-aos-duration="1000">
         <h1 class="login-title">Login</h1>
         <p class="login-subtitle">Login with your account</p>
         
@@ -19,11 +19,11 @@
             <a href="#" class="login-btn">Log In</a>
         </form>
         <p class="other-login-txt">Login with others</p>
-        <a href="#" class="google-login-option"><i class="google-icon fa-brands fa-google"></i>Google Login</a>
+        <a href="#" class="google-login-option"><i class="google-icon fa-brands fa-google"></i>Login with google</a>
     </div>
 
     <!-- right section -->
-    <div class="right-section">
+    <div class="right-section" data-aos="fade-right" data-aos-duration="1000">
         <img class="login-img" src="../assets/login image.png" alt="login image" srcset="">
     </div>
 </div>
