@@ -30,7 +30,7 @@
             <input placeholder="Your Email" type="text" class="contact-email">
             <input placeholder="Your Address" type="text" class="contact-address">
             <textarea placeholder="Your Message" name="" id="" class="contact-message"></textarea>
-            <button type="submit" class="contact-submit">Send Message</button>
+            <button type="submit" class="contact-submit-btn">Send Message</button>
         </form>
     </div>
 </div>

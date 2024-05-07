@@ -560,3 +560,19 @@ service page style */
     text-align: justify;
     text-justify: inter-word;
 } 
+
+.contact-submit-btn{
+    border-radius: 7px;
+    background-color: rgb(28, 255, 153);
+    font-family: var(--body-text);
+    font-size: 1.1rem;
+    color: var(--title-text-color);
+    padding: 10px;
+    border: none;
+}
+
+.contact-submit-btn:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: rgb(28, 255, 153);
+}
