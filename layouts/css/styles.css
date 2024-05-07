@@ -48,10 +48,17 @@ body{
     font-size: 1rem;
 }
 
+/* navbar sign up button */
+
 .signup{
     background-color: #F7CB73;
     padding: 8px;
     border-radius: 8px;
+}
+
+.signup .sign-up-menu:hover, .signup:hover{
+    background-color: rgb(21, 21, 21);
+    color: rgb(28, 255, 153);
 }
 
 .logo-img{
@@ -82,7 +89,8 @@ body{
 }
 
 .menu-link:hover{
-    color: #2b8fec;
+    color: black;
+    border-bottom: 2px solid black;
 }
 
 
