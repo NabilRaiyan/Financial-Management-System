@@ -17,12 +17,12 @@
 
     
 </head>
-<div class="navbar">
+<div class="navbar" data-aos="fade-left" data-aos-duration="1000">
     <div class="nav-menu-div">
         <a href="#" class="logo"><span class="logo-img">F</span>inTech</a>
         <ul class="nav-menu-list">
-            <li class="nav-menu"><i class="nav-icon fa-solid fa-chart-simple"></i><a href="#" class="menu-link">Dashboard</a></li>
-            <li class="nav-menu"><i class="nav-icon fa-brands fa-bitcoin"></i><a href="#" class="menu-link">Savings</a></li>
+            <li class="nav-menu"><i class="nav-icon fa-solid fa-chart-simple"></i><a href="./dashboard_small_business_view.php" class="menu-link">Dashboard</a></li>
+            <li class="nav-menu"><i class="nav-icon fa-brands fa-bitcoin"></i><a href="./savings_small_business_views.php" class="menu-link">Savings</a></li>
             <li class="nav-menu"><i class="nav-icon fa-solid fa-dollar-sign"></i><a href="#" class="menu-link">Expenses</a></li>
             <li class="nav-menu"><i class="nav-icon fa-solid fa-percent"></i><a href="#" class="menu-link">My Tax</a></li>
             <li class="nav-menu"><i class="nav-icon fa-solid fa-gears"></i><a href="#" class="menu-link">Settings</a></li>
