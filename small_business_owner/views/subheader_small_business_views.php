@@ -22,12 +22,12 @@
     <div class="nav-menu-div">
         <a href="#" class="logo"><span class="logo-img">F</span>inTech</a>
         <ul class="nav-menu-list">
-            <li class="nav-menu"><a href="#" class="menu-link">Dashboard</a></li>
-            <li class="nav-menu"><a href="#" class="menu-link">Savings</a></li>
-            <li class="nav-menu"><a href="#" class="menu-link">Expenses</a></li>
-            <li class="nav-menu"><a href="#" class="menu-link">My Tax</a></li>
-            <li class="nav-menu"><a href="#" class="menu-link">Settings</a></li>
-            <li class="nav-menu log-out"><a href="#" class="sign-up-menu menu-link">Log out</a></li>
+            <li class="nav-menu"><i class="nav-icon fa-solid fa-chart-simple"></i><a href="#" class="menu-link">Dashboard</a></li>
+            <li class="nav-menu"><i class="nav-icon fa-brands fa-bitcoin"></i><a href="#" class="menu-link">Savings</a></li>
+            <li class="nav-menu"><i class="nav-icon fa-solid fa-dollar-sign"></i><a href="#" class="menu-link">Expenses</a></li>
+            <li class="nav-menu"><i class="nav-icon fa-solid fa-percent"></i><a href="#" class="menu-link">My Tax</a></li>
+            <li class="nav-menu"><i class="nav-icon fa-solid fa-gears"></i><a href="#" class="menu-link">Settings</a></li>
+            <li class="nav-menu log-out"><i class="nav-icon fa-solid fa-right-from-bracket"></i><a href="#" class="sign-up-menu menu-link">Log out</a></li>
         </ul>
     </div>
 </div>

@@ -36,15 +36,21 @@ body{
     color: var(--nav-text-color);
     
 }
+.nav-icon{
+    margin-right: 10px;
+    color: black;
+}
 
 .nav-menu-list{
     text-decoration:none;
     text-align: left;
     font-family: var(--nav-menu-text);
     list-style-type: none; 
+    position: relative;
+    top: 120px;
 }
 .nav-menu{
-    margin: 30px;
+    margin: 25px 0;
     font-family: var(--nav-menu-text);
     font-size: 1rem;
 }
@@ -65,16 +71,24 @@ body{
     font-size: 1.2rem;
     font-style: italic;
     text-decoration: none;
-    margin: 15px;
+    margin: 40px;
     padding: 8px;
     display: inline;
+    position: relative;
+    top: 30px;
     background-color: var(--nav-bg-color);
 }
 
 .nav-menu-div{
-    padding: 20px;
-    margin-top: 20px;
+    padding: 30 30px 30px 20px;
 }
 .navbar{
-    width: 20vw;
+    width: 15vw;
+    height: 100vh;
+    border: 1px solid rgb(59, 59, 59);
+}
+
+.logout{
+    position: relative;
+    top: 200px;
 }
