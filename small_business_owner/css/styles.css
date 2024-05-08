@@ -336,6 +336,7 @@ body{
     text-align: left;
     font-size: 1.2rem;
     margin-left: 10px;
+    margin-bottom: 30px;
 }
 .add-savings{
     margin: 20px;
@@ -348,5 +349,50 @@ body{
     border: none;
     outline: none;
     border-bottom: 1px solid rgb(0, 78, 203);
+}
+
+.savings-amount-input{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.savings-name-input::placeholder, .savings-amount-input::placeholder{
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    font-size: 1rem;
+}
+label{
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    font-size: 1rem;
+    margin: 0 11px 0; 
+}
+
+.add-savings-btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00ffd5;
+    padding: 10px;
+    color: #151515;
+    font-family: var(--title-text);
+    font-weight: 500;
+    border-radius: 6px;
+    width: 200px;
+    font-size: 1rem;
+    position: relative;
+    left: 3px;
+    top: 30px;
+}
+
+.add-savings-btn:hover{
+    background-color: #151515;
+    color: #00ffd5;
 
 }
+
+.savings-name-input:hover, .savings-amount-input:hover, .savings-type:hover{
+    border-color: #EC662B;
+}
+
+/* savings list style */

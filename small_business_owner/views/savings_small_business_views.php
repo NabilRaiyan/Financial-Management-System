@@ -22,6 +22,7 @@
                 <input type="text" class="savings-name-input" name="savings-name" placeholder="Savings name">
                 <input type="text" class="savings-amount-input" name="savings-amount" placeholder="Savings amount">
 
+                <label for="">Select type</label>
                 <select class="savings-type" name="savings-type" id="">
                     <option selected value=""></option>
                     <option value="technology">Technology</option>
@@ -31,7 +32,7 @@
                     <option value="others">Others</option>
 
                 </select>
-                <a class="add-savings" type="submit" href="#">Add Savings</a>
+                <a class="add-savings-btn" type="submit" href="#">Add Savings</a>
             </form>
         </div>
     </div>
