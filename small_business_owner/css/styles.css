@@ -86,12 +86,13 @@ body{
 
 .nav-menu-div{
     padding: 30 30px 30px 20px;
+    display: inline-block;
 }
 .navbar{
+    display: inline-block;
     width: 15vw;
     height: 100vh;
     border: 1px solid rgb(59, 59, 59);
-    display: inline-block;
 }
 
 .log-out{
@@ -109,6 +110,8 @@ body{
     display: inline-block;
     width: 80vw;
     text-align: left;
+    position: absolute;
+    bottom: 20px;
 
 }
 
@@ -177,5 +180,11 @@ body{
 /* expense cart style */
 
 .expense-cart-div{
+    background-color: #F7D16A;
+    border-radius: 7px;
     
 }
+.expense-title, .expense-money, .time{
+    display: inline-block;
+}
+

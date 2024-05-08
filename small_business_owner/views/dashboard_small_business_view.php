@@ -17,6 +17,12 @@
         <div class="recent-expense-list">
             <h3 class="recent-expense-title">Recent Expenses</h3>
             <p class="date">06 Jan, 2024</p>
+            <!-- expense cart -->
+            <?php 
+                for ($i=0; $i < 3; $i++){
+                    include "./expenses_card_views.php";
+                }
+            ?>
         </div>
     </div>
 </div>
