@@ -38,6 +38,7 @@ body{
 
 .menu-link:hover{
     border-bottom: 1px solid rgb(1, 187, 147);
+    color: #151515;
 }
 
 
@@ -124,6 +125,7 @@ body{
     color: var(--title-text-color);
     font-weight: 600;
     margin-bottom: 10px;
+    display: inline-block;
 
 }
 
@@ -143,10 +145,14 @@ body{
     display: inline-block;
     width: 20vw;
     height: 80vh;
-    border: 1px solid #ffb836;
+    border: 1px solid #383838;
     border-radius: 7px;
 }
 
+.balance-amount{
+    font-family: var(--body-text);
+    color: var(--title-text);
+}
 .current-balace-div{
     background-color: var(--card-color);
     padding: 10px;
@@ -182,9 +188,107 @@ body{
 .expense-cart-div{
     background-color: #F7D16A;
     border-radius: 7px;
+    margin: 15px 10px;
+    position: relative;
+    right: 10px;
+    text-align: left;
+    padding: 16px 16px 16px 5px;
     
 }
 .expense-title, .expense-money, .time{
+    margin: 0;
+}
+.expense-money, .time{
     display: inline-block;
+    margin-left: 36px;
+    font-family: var(--body-text);
+    color: #535353;
+    font-weight: 500;
+
 }
 
+.expense-title{
+    font-size: 1rem;
+    font-family: var(--title-text);
+    font-weight: 600;
+    color: var(--title-text-color);
+}
+
+
+.expense-icon{
+    margin-right: 10px;
+    color: #383838;
+    margin-left: 10px;
+}
+
+.sell-all-expense-btn{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    margin: 10px auto;
+}
+
+.sell-all-expense-btn:hover{
+    color: rgb(1, 153, 120);
+    
+}
+
+/* weekly summary div style */
+.upper-section{
+    display: inline-block;
+    background-color: var(--card-color);
+    width: 40vw;
+    margin-left: 20px;
+    padding: 10px;
+    
+    position: absolute;
+    border-radius: 7px;
+    border: 1px solid #383838;
+}
+
+.savings-div, .expense-div{
+    display: inline-block;
+    margin: 10px 50px;
+    border: 1px solid #383838;
+    border-radius: 5px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.savings-div{
+    background-color: rgb(0, 225, 255);
+}
+
+.expense-div{
+    background-color: rgb(255, 190, 69);
+}
+
+.weekly-summary-title{
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 0;
+    text-align: center;
+}
+.weekly-date, .weekly-saving-money, .weekly-expense-money{
+    font-family: var(--body-text);
+    color: var(--title-text-color);
+    margin: 10px;
+    font-weight: 300;
+}
+
+/* lower section style */
+
+.lower-section{
+    background-color: white;
+    display: inline-block;
+    margin: 23px;
+    position: absolute;
+    top: 250px;
+    border: 1px solid #383838;
+    border-radius: 7px;
+
+}
