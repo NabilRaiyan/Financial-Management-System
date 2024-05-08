@@ -2,8 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<title>My Dashboard</title>
-<link rel="stylesheet" href="../css/styles.css">
+<title>My Savings | Small business</title>
 <?php include "./subheader_small_business_views.php"; ?>
 
 <div class="dashboard-body">

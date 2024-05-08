@@ -2,7 +2,6 @@
 <html lang="en">
 
 <title>My Dashboard</title>
-<link rel="stylesheet" href="../css/styles.css">
 <?php include "./subheader_small_business_views.php"; ?>
 
 <div class="dashboard-body" data-aos="fade-up" data-aos-duration="1000">

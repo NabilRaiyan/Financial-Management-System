@@ -17,7 +17,7 @@
 
     
 </head>
-<div class="navbar" data-aos="fade-left" data-aos-duration="1000">
+<div class="navbar">
     <div class="nav-menu-div">
         <a href="#" class="logo"><span class="logo-img">F</span>inTech</a>
         <ul class="nav-menu-list">
