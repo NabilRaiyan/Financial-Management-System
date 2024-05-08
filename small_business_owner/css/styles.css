@@ -1,0 +1,72 @@
+
+
+
+/* variable declaration */
+
+:root{
+    --nav-text-color: #505050;
+    --background-color: #fff;
+    --main-bg-color: #FFFFFF;
+    --title-text: "Poppins", sans-serif;
+    --nav-menu-text: "Inter", sans-serif;
+    --body-text: "DM Sans", sans-serif;
+    --body-text-color: #7f7e7e;
+    --rating-color: #ED7239;
+    --btn-color: #EB662B;
+    --nav-bg-color:  #FBE6BE;
+    --footer-bg-color: #383838;
+    --title-text-color: rgb(59, 59, 59);
+    --card-color: #F5F3EE;
+}
+
+
+body{
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+/* navbar and logo styles */
+
+.navbar{
+    background-color: var(--card-color);
+
+}
+.menu-link{
+    text-decoration: none;
+    color: var(--nav-text-color);
+    
+}
+
+.nav-menu-list{
+    text-decoration:none;
+    text-align: left;
+    font-family: var(--nav-menu-text);
+    list-style-type: none; 
+}
+.nav-menu{
+    margin: 30px;
+    font-family: var(--nav-menu-text);
+    font-size: 1rem;
+}
+
+
+.logo-img{
+    background-color: #EC662B;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+.logo{
+    color: rgb(58, 58, 252);
+    font-family: var(--title-text);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-decoration: none;
+    margin: 15px;
+    padding: 8px;
+    display: inline;
+    background-color: var(--nav-bg-color);
+}

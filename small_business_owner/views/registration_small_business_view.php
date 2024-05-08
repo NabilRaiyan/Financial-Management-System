@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<title>Forgot Password?</title>
-<link rel="stylesheet" href="../../layouts/css/styles.css">
-<?php include "../../layouts/views/header.php" ?>
-
-
-
-
-
+<title>Registration | Small Business</title>
+<link rel="stylesheet" href="../css/styles.css">
+<?php include "./subheader_small_business_views.php"; ?>
 
 
 <!-- animation on scroll js  -->
@@ -17,6 +12,5 @@
     AOS.init();
   </script>
 
-    <?php include "../../layouts/views/footer.php"; ?>
 </body>
 </html>
