@@ -6,7 +6,7 @@
 <?php include "./subheader_small_business_views.php"; ?>
 
 <div class="savings-body">
-    <h1 class="savings-title">Savings</h1>
+    <h1 class="savings-title">My Savings</h1>
     <h4 class="user-name">Welcome, Raiyan Al Sultan</h4>
 
     <div class="add-savings-div">
