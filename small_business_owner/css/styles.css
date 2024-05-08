@@ -292,3 +292,61 @@ body{
     border-radius: 7px;
 
 }
+
+/* ---------------------------------------------- */
+
+/* savings page style */
+
+
+
+.savings-body{
+    display: inline-block;
+    width: 80vw;
+    text-align: left;
+    position: absolute;
+    bottom: 20px;
+
+}
+
+.savings-title{
+    margin: 15px;
+}
+
+.savings-title{
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.add-savings-div{
+    margin-left: 15px;
+    display: inline-block;
+    width: 20vw;
+    height: 80vh;
+    border: 1px solid #383838;
+    border-radius: 7px;
+}
+
+.add-savings-title{
+    font-family: var(--title-text);
+    font-weight: 400;
+    color: var(--title-text-color);
+    text-align: left;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.add-savings{
+    margin: 20px;
+}
+
+.savings-name-input, .savings-amount-input, .savings-type{
+    margin: 10px;
+    width: 80%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(0, 78, 203);
+
+}
