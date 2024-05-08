@@ -14,7 +14,7 @@
       <a class="forgot-pass-continue-btn" href="#">Continue</a>
     </form>
     <p class="other-login-txt">Don't have any account?</p>
-    <a class="forgot-signup" href="#">Sign Up</a>
+    <a class="forgot-signup" href="./services_view.php">Sign Up</a>
   </p>
 </div>
 
