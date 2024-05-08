@@ -70,3 +70,11 @@ body{
     display: inline;
     background-color: var(--nav-bg-color);
 }
+
+.nav-menu-div{
+    padding: 20px;
+    margin-top: 20px;
+}
+.navbar{
+    width: 20vw;
+}
