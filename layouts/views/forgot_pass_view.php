@@ -5,7 +5,7 @@
 <?php include "./header.php"; ?>
 
 
-<div class="forgot-pass-div">
+<div class="forgot-pass-div" data-aos="fade-up" data-aos-duration="1000">
   <a href="./home_view.php" class="logo"><span class="logo-img">F</span>inTech</a>
   <p class="forgot-pass-description">
     Enter the email address associated with your <br> account and we will send you a link to reset your password

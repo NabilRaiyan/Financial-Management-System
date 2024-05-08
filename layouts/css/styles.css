@@ -91,7 +91,7 @@ body{
 
 .menu-link:hover{
     color: black;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #0C0CF5;
 }
 
 
@@ -134,13 +134,14 @@ body{
 .get-started-btn{
     background-color: #F7CB73;
     color: var(--nav-text-color);
-    font-family: var(--nav-menu-text);
+    font-family: var(--title-text);
     font-size: 1rem;
     font-weight: 700;
     padding: 10px;
     margin: 40px 0 15px 50px;
     border-radius: 8px;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .get-started-btn:hover{
