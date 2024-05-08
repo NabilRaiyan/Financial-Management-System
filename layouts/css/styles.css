@@ -769,3 +769,40 @@ service page style */
     background-color: rgb(34, 34, 34);
     color: rgb(28, 255, 153);
 }
+
+
+/* ------------------------------------------------------------- */
+
+/* forgot password page style */
+
+.forgot-pass-div{
+    margin: 120px auto;
+    text-align: center;
+    background-color: var(--card-color);
+    padding: 60px;
+    width: 50vw;
+    height: 30vh;
+    border-radius: 7px;
+    border: 2px solid #E6E6E6;
+    line-height: 1.2;
+}
+
+.forgot-pass-description{
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    margin: 30px auto;
+    font-size: 0.9rem;
+}
+.forgot-pass-email-input{
+    margin: 5px auto 15px;
+    width: 40%;
+    height: 40px;
+    background-color: var(--card-color);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ffa702;
+}
+
+.forgot-pass-continue-btn{
+    display: block;
+}

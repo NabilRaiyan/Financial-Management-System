@@ -2,7 +2,7 @@
 <footer data-aos="fade-up" data-aos-duration="1000">
     <div class="footer-body">
         <div class="section-1">
-            <a href="#" class="logo"><span class="logo-img">F</span>inTech</a>
+            <a href="./home_view.php" class="logo"><span class="logo-img">F</span>inTech</a>
             <p class="footer-address">123 Main <br> Street <br> Anytown, USA</p>
         </div>
 

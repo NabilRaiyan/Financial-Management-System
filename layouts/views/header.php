@@ -20,7 +20,7 @@
 
 <nav class="navbar">
     <div class="nav-menu-div">
-        <a href="#" class="logo"><span class="logo-img">F</span>inTech</a>
+        <a href="./home_view.php" class="logo"><span class="logo-img">F</span>inTech</a>
         <ul class="nav-menu-list">
             <li class="nav-menu"><a href="./home_view.php" class="menu-link">Home</a></li>
             <li class="nav-menu"><a href="./services_view.php" class="menu-link">Services</a></li>
