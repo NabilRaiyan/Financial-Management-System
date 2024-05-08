@@ -17,7 +17,6 @@
 
     
 </head>
-
 <div class="navbar">
     <div class="nav-menu-div">
         <a href="#" class="logo"><span class="logo-img">F</span>inTech</a>

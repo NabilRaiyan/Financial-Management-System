@@ -33,9 +33,14 @@ body{
 }
 .menu-link{
     text-decoration: none;
-    color: var(--nav-text-color);
-    
+    color: var(--nav-text-color);  
 }
+
+.menu-link:hover{
+    border-bottom: 1px solid rgb(1, 187, 147);
+}
+
+
 .nav-icon{
     margin-right: 10px;
     color: black;
@@ -50,7 +55,7 @@ body{
     top: 120px;
 }
 .nav-menu{
-    margin: 25px 0;
+    margin: 27px 0;
     font-family: var(--nav-menu-text);
     font-size: 1rem;
 }
@@ -86,9 +91,91 @@ body{
     width: 15vw;
     height: 100vh;
     border: 1px solid rgb(59, 59, 59);
+    display: inline-block;
 }
 
-.logout{
+.log-out{
     position: relative;
-    top: 200px;
+    top: 220px;
+    left: 10px;
+}
+
+
+/* ----------------------------------------------- */
+
+/* Dashboard style */
+
+.dashboard-body{
+    display: inline-block;
+    width: 80vw;
+    text-align: left;
+
+}
+
+.dashboard-title, .user-name{
+    margin: 15px;
+}
+
+.dashboard-title{
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.user-name{
+    font-family: var(--body-text);
+    color: var(--nav-text-color);
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+
+/* recent expense style */
+
+.recent-expense{
+    margin-left: 15px;
+    display: inline-block;
+    width: 20vw;
+    height: 80vh;
+    border: 1px solid #ffb836;
+    border-radius: 7px;
+}
+
+.current-balace-div{
+    background-color: var(--card-color);
+    padding: 10px;
+    border: 1px solid #383838;
+    border-radius: 7px;
+}
+
+.current-balance-title{
+    font-family: var(--title-text);
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--title-text-color);
+}
+
+.recent-expense-title{
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    font-weight: 400;
+    
+}
+.date{
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+
+}
+.recent-expense-list{
+    margin-left: 15px;
+    text-align: center;
+}
+
+/* expense cart style */
+
+.expense-cart-div{
+    
 }
