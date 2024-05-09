@@ -39,10 +39,10 @@
 
     <!-- savings history -->
     <div class="savings-history-div">
-        <h1 class="history-title">Savings History</h1>
+        <h1 class="savings-history-title">Savings History</h1>
         <div class="savings-history-list">
             <?php
-                for($i = 0; $i < 10; $i++){
+                for($i = 0; $i < 5; $i++){
                     include "./history_card_view.php";
                 }
             
