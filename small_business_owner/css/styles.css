@@ -396,13 +396,28 @@ label{
 }
 
 /* savings history list style */
-
-.savings-history{
+.history-title{
+    font-family: var(--title-text);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--title-text-color);
+}
+.savings-history-div{
     position: absolute;
     width: 70vh;
-    height: 100vh;
-    display: inline-block;
+    height: 60vh;
     margin: 0px 20px;
     border-radius: 7px;
     border: 1px solid #383838;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    left: 300px;
+    bottom: 142px;
+    
+}
+
+.savings-history-list{
+    flex-grow: 1;
+    overflow-y: auto;
 }
