@@ -36,6 +36,19 @@
             </form>
         </div>
     </div>
+
+    <!-- savings history -->
+    <div class="savings-history">
+        <h1 class="history-title">Savings History</h1>
+        <div class="savings-history-list">
+            <?php
+                for($i = 0; $i < 3; $i++){
+                    include "./history_card_view.php";
+                }
+            
+            ?>
+        </div>
+    </div>
     
 </div>
 

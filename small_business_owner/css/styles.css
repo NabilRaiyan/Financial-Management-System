@@ -395,5 +395,14 @@ label{
     border-color: #EC662B;
 }
 
-/* savings list style */
+/* savings history list style */
 
+.savings-history{
+    position: absolute;
+    width: 70vh;
+    height: 100vh;
+    display: inline-block;
+    margin: 0px 20px;
+    border-radius: 7px;
+    border: 1px solid #383838;
+}
