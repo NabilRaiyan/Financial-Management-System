@@ -460,3 +460,19 @@ label{
     font-weight: 600;
     color: var(--title-text-color);
 }
+
+.history-delete, .history-edit{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: var(--body-text);
+    color: var(--title-text-color);
+}
+
+.history-delete:hover{
+    color: rgb(255, 0, 0);
+}
+
+.history-edit:hover{
+    color: rgb(0, 158, 8);
+}
