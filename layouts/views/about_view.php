@@ -13,7 +13,7 @@
     </h1>
     <p class="about-sub-description">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ratione natus repudiandae a, officiis libero ipsam incidunt quasi unde itaque impedit alias iste quibusdam, quaerat ipsum debitis, accusamus molestias quos!
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam eum culpa repellat distinctio enim laboriosam ratione veritatis debitis optio, fugiat doloremque! Perspiciatis doloribus blanditiis maiores odio non ratione impedit illo?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam eum culpa repellat disbinctio enim laboriosam ratione veritatis debitis optio, fugiat doloremque! Perspiciatis doloribus blanditiis maiores odio non ratione impedit illo?
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ad quam tempora, reprehenderit commodi dolore? Perferendis voluptate sequi eligendi autem aperiam nostrum velit repudiandae quae, unde, praesentium aliquam, maxime cum.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, ratione, iure velit nemo voluptatibus dolor culpa recusandae molestias reiciendis totam rerum tempora nulla dolore autem et quae possimus pariatur doloribus!
 

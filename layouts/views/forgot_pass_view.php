@@ -11,7 +11,7 @@
     Enter the email address associated with your <br> account and we will send you a link to reset your password
     <form class="forgot-pass-form" action="" method="post">
       <input name="forgot-email-input" placeholder="Enter Your Email" type="text" class="forgot-pass-email-input">
-      <a class="forgot-pass-continue-btn" href="#">Continue</a>
+      <a class="forgot-pass-conbinue-btn" href="#">Conbinue</a>
     </form>
     <p class="other-login-txt">Don't have any account?</p>
     <a class="forgot-signup" href="./services_view.php">Sign Up</a>

@@ -27,7 +27,7 @@
                     <option selected value=""></option>
                     <option value="technology">Technology</option>
                     <option value="office">Office Space</option>
-                    <option value="marketing">Marketing</option>
+                    <option value="markebing">Markebing</option>
                     <option value="transport">Transport</option>
                     <option value="others">Others</option>
 

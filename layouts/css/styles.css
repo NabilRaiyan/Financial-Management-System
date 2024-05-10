@@ -9,7 +9,7 @@
     --nav-menu-text: "Inter", sans-serif;
     --body-text: "DM Sans", sans-serif;
     --body-text-color: #7f7e7e;
-    --rating-color: #ED7239;
+    --rabing-color: #ED7239;
     --btn-color: #EB662B;
     --nav-bg-color:  #FBE6BE;
     --footer-bg-color: #383838;
@@ -813,7 +813,7 @@ service page style */
     color: var(--body-text-color);
 }
 
-.forgot-pass-continue-btn{
+.forgot-pass-conbinue-btn{
     display: block;
     background-color: rgb(28, 255, 153);
     color: rgb(38, 38, 38);
@@ -827,7 +827,7 @@ service page style */
     left: 300px;
 }
 
-.forgot-pass-continue-btn:hover{
+.forgot-pass-conbinue-btn:hover{
     color: rgb(28, 255, 153);
     background-color: rgb(38, 38, 38);
 }

@@ -23,14 +23,22 @@
         <form action="" method="POST">
             <input placeholder="Enter business owner name" class="login-user-email-input" name="owner-name" type="text">
             <?php echo '<p class="error" for="">'.$business_owner_name_error.'</p>'; ?>
-            <input placeholder="Enter business name" class="login-user-email-input" name="registration-name" type="text">
+
+            <input placeholder="Enter business name" class="login-user-email-input" name="registration-business-name" type="text">
             <?php echo '<p class="error" for="">'.$business_name_error.'</p>'; ?>
+
             <input placeholder="Enter business email" class="login-user-email-input" name="registration-email" type="text">
             <?php echo '<p class="error" for="">'.$business_email_error.'</p>'; ?>
-            <input placeholder="Enter password" class="login-user-password-input" name="registration-password" type="text">
+
+            <input placeholder="Enter password" class="login-user-password-input" name="registration-password" type="password">
             <?php echo '<p class="error" for="">'.$business_pass_error.'</p>'; ?>
-            <input placeholder="Enter TIN number" class="login-user-email-input" name="registration-tin-number" type="text">
-            <?php echo '<p class="error" for="">'.$business_tin_num_error.'</p>'; ?>
+
+            <input placeholder="Enter confirm password" class="login-user-password-input" name="registration-confirm-password" type="password">
+            <?php echo '<p class="error" for="">'.$business_confirm_pass_error.'</p>'; ?>
+
+            <input placeholder="Enter BIN number" class="login-user-email-input" name="registration-bin-number" type="text">
+            <?php echo '<p class="error" for="">'.$business_bin_num_error.'</p>'; ?>
+
             <label for="">Select business type</label>
                 <select class="business_type" name="business-type" id="">
                     <option selected value=""></option>
