@@ -1,6 +1,5 @@
 <?php include "../controllers/small_business_registration_controller.php"; ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,9 +11,12 @@
 </head>
 
 <a href="../../layouts/views/home_view.php" class="logo registration-logo"><span class="logo-img">F</span>inTech</a>
+<?php echo '<p class="success-message">'. $registration_success_message .'</p>'; ?>
+<?php echo '<p class="unsuccess-message">'. $registration_error_message .'</p>'; ?>
+
+
 <div class="login-div registration-div" data-aos="fade-up" data-aos-duration="1000">
     <!-- left section  -->
-    
     <div class="left-section" data-aos="fade-left" data-aos-duration="1000">
 
         <h1 class="login-title">Sign Up</h1>
@@ -38,6 +40,9 @@
 
             <input placeholder="Enter BIN number" class="login-user-email-input" name="registration-bin-number" type="text">
             <?php echo '<p class="error" for="">'.$business_bin_num_error.'</p>'; ?>
+
+            <input placeholder="Enter monthly income" class="login-user-email-input" name="registration-monthly-income" type="text">
+            <?php echo '<p class="error" for="">'.$business_monthly_income_error.'</p>'; ?>
 
             <label for="">Select business type</label>
                 <select class="business_type" name="business-type" id="">

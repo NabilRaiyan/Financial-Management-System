@@ -513,4 +513,21 @@ registration-logo{
     font-family: var(--body-text);
     font-weight: 200;
     font-size: 0.9rem;
-;}
+
+}
+
+.success-message{
+    text-align: center;
+    color: rgb(0, 185, 49);
+    font-family: var(--body-text);
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.unsuccess-message{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-family: var(--body-text);
+    font-weight: 200;
+    font-size: 1rem;
+}

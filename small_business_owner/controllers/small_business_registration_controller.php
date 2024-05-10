@@ -1,7 +1,9 @@
 <?php
 
-$business_owner_name=$business_name=$business_email=$business_pass=$business_type=$business_bin_num=$business_confirm_pass= '';
-$business_owner_name_error=$business_name_error=$business_email_error=$business_pass_error=$business_confirm_pass_error=$business_type_error=$business_bin_num_error=$hasError= '';
+include "../models/small_business_db.php";
+
+$business_owner_name=$business_name=$business_email=$business_pass=$business_type=$business_bin_num=$business_confirm_pass=$business_monthly_income= '';
+$business_owner_name_error=$business_name_error=$business_email_error=$business_pass_error=$business_confirm_pass_error=$business_type_error=$business_bin_num_error=$hasError=$business_monthly_income_error= '';
 $registration_success_message=$registration_error_message = '';
 
 
@@ -91,6 +93,27 @@ if (isset($_REQUEST['Submit'])){
             }
         }
 
+
+
+
+        // monthly income validation
+        if (empty($_REQUEST['registration-monthly-income'])){
+            $business_monthly_income_error = "Please enter monthly income";
+            $hasError = 1;
+        }else{
+            if (is_numeric($_REQUEST['registration-monthly-income'])){
+               
+                $business_monthly_income = $_REQUEST['registration-monthly-income'];
+            }
+            else{
+                $business_monthly_income_error = "Please enter numeric value only.";
+                $hasError = 1;
+            }
+        }
+
+
+        
+
         // business name validation
         if (strlen($_REQUEST['registration-business-name']) < 0){
             $business_name_error = "Please enter business name";
@@ -99,7 +122,7 @@ if (isset($_REQUEST['Submit'])){
             $business_name_error = "Business name should atleast 2 character long";
             $hasError = 1;
         }
-        elseif(preg_match('/[$, @, &, % , #]/', $_REQUEST["registration-business-name"])){
+        elseif(preg_match('/[$,@,&,%,#]/', $_REQUEST["registration-business-name"])){
             $business_name_error = "Business name should not contain any special character";
             $hasError = 1;
         }
@@ -114,6 +137,26 @@ if (isset($_REQUEST['Submit'])){
             $hasError = 1;
         }else{
             $business_type = $_REQUEST["business-type"];
+        }
+
+    // DB code for adding user
+
+    if (!$hasError == 1){
+        $mydb = new Model();
+        $conObj = $mydb->OpenCon();
+        $result = $mydb->addUserIntoRegistration($conObj, "registration", $business_email, $business_pass, $business_owner_name, "small-business");
+        $result2 = $mydb->addUserIntoSmallBusiness($conObj, "smallbusinessuser", $business_type, $business_name, $business_bin_num, $business_monthly_income, $business_email, $business_pass, "null");
+
+        if ($result2 === TRUE){
+            $registration_success_message = "Successfully Registered. Please login.";
+           
+        }else{
+            $registration_error_message = "Registration unsuccessful. Please try again with proper information." . $conObj->error;
+        }
+        }
+        else{
+            $registration_error_message = "Registration unsuccessful. Please try again with proper information." . $conObj->error;
+
         }
 }
 
