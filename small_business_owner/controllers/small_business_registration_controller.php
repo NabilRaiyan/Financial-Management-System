@@ -28,6 +28,10 @@ if (isset($_REQUEST['Submit'])){
         $business_pass_error = "Password must contain atleast one uppercase";
         $hasError = 1;
     }
+    elseif(!preg_match('/[$, @, &, % , #]/', $_REQUEST["registration-password"])){
+        $business_pass_error = "Password must contain atleast one of these special character [$, @, &, % , #]";
+        $hasError = 1;
+    }
     else{
         $business_pass = $_REQUEST["registration-password"];
     }
