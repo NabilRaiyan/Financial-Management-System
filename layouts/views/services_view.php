@@ -10,9 +10,9 @@
 
     <div class="service-card-list">
         <?php 
-            for ($i = 0; $i < 3; $i++){
-                include "./service_card_view.php";
-            }
+            
+            include "./service_card_view.php";
+            
          ?>
     </div>
 

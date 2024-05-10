@@ -5,7 +5,7 @@
 <title>My Savings | Small business</title>
 <?php include "./subheader_small_business_views.php"; ?>
 
-<div class="savings-body">
+<div class="savings-body" data-aos="fade-up" data-aos-duration="1000">
     <h1 class="savings-title">My Savings</h1>
     <h4 class="user-name">Welcome, Raiyan Al Sultan</h4>
 

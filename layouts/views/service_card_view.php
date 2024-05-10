@@ -1,18 +1,31 @@
+<?php include "../controllers/service_controller_layout.php"; ?>
+
+<!-- ../../small_business_owner/views/registration_small_business_view.php -->
 
 
 <body>
-    <div class="service-card" data-aos="fade-right" data-aos-duration="1000">
-        <h1 class="card-title">Single User</h1>
-        <h2 class="card-subtitle">Free</h2>
-        <p class="money">$10 <br> per user/month</p>
-        <a class="sign-up-btn" href="../../small_business_owner/views/registration_small_business_view.php">Sign Up</a>
-
-        <div class="feature-list">
-            <li><i class="fa-regular fa-circle-check"></i>100% free</li>
-            <li><i class="fa-regular fa-circle-check"></i>User can add expenses</li>
-            <li><i class="fa-regular fa-circle-check"></i>User can add savings</li>
-            <li><i class="fa-regular fa-circle-check"></i>User can see their history</li>
-        </div>
-    </div>
+    <?php 
+        if ($allServiceResult->num_rows > 0){
+            {
+                foreach($allServiceResult as $rows){
+                    echo "<div class='service-card' data-aos='fade-right' data-aos-duration='1000'>";
+                       echo '<h1 class="card-title">'. $rows['usertype'].'</h1>';
+                        echo '<h2 class="card-subtitle">Free</h2>';
+                        echo '<p class="money">'. $rows['money'] . '<br> per user/month</p>';
+                        echo '<a class="sign-up-btn" href='. './services_view.php?userTypeId='. $rows['u_id'] .'>Sign Up</a>';
+                
+                        echo '<div class="feature-list">';
+                            echo '<li><i class="fa-regular fa-circle-check"></i>100% free</li>';
+                            echo '<li><i class="fa-regular fa-circle-check"></i>User can add expenses</li>';
+                            echo '<li><i class="fa-regular fa-circle-check"></i>User can add savings</li>';
+                            echo '<li><i class="fa-regular fa-circle-check"></i>User can see their history</li>';
+                        echo '</div>';
+                    echo '</div>';
+                }
+            }
+        }
+    
+    ?>
+   
     
 </body>
