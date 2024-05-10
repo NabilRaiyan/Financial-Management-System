@@ -2,7 +2,10 @@
 
 $business_owner_name=$business_name=$business_email=$business_pass=$business_type=$business_bin_num=$business_confirm_pass= '';
 $business_owner_name_error=$business_name_error=$business_email_error=$business_pass_error=$business_confirm_pass_error=$business_type_error=$business_bin_num_error=$hasError= '';
+$registration_success_message=$registration_error_message = '';
 
+
+// validation registration form for small business owner
 if (isset($_REQUEST['Submit'])){
     // owner name validation
     if (strlen($_REQUEST['owner-name']) < 0){
@@ -92,16 +95,25 @@ if (isset($_REQUEST['Submit'])){
         if (strlen($_REQUEST['registration-business-name']) < 0){
             $business_name_error = "Please enter business name";
             $hasError = 1;
-        }elseif(strlen($_REQUEST['registration-business-name']) < 4){
-            $business_name_error = "Owner name should atleast 4 character long";
+        }elseif(strlen($_REQUEST['registration-business-name']) < 2){
+            $business_name_error = "Business name should atleast 2 character long";
             $hasError = 1;
         }
         elseif(preg_match('/[$, @, &, % , #]/', $_REQUEST["registration-business-name"])){
-            $business_name_error = "Owner name should not contain any special character";
+            $business_name_error = "Business name should not contain any special character";
             $hasError = 1;
         }
         else{
             $business_name = $_REQUEST["registration-business-name"];
+        }
+
+
+        // business type validation
+        if (empty($_REQUEST["business-type"])){
+            $business_type_error = "Please select your business type";
+            $hasError = 1;
+        }else{
+            $business_type = $_REQUEST["business-type"];
         }
 }
 
