@@ -1,7 +1,4 @@
-<?php include "../controllers/service_controller_layout.php"; ?>
-
-<!-- ../../small_business_owner/views/registration_small_business_view.php -->
-
+<?php include "../controllers/service_card_controller_layout.php"; ?>
 
 <body>
     <?php 
