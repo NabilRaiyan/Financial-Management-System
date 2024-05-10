@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="../css/styles.css">
 </head>
 
-<a href="./home_view.php" class="logo registration-logo"><span class="logo-img">F</span>inTech</a>
+<a href="../../layouts/views/home_view.php" class="logo registration-logo"><span class="logo-img">F</span>inTech</a>
 <div class="login-div registration-div" data-aos="fade-up" data-aos-duration="1000">
     <!-- left section  -->
     
@@ -18,12 +18,21 @@
         <p class="login-subtitle">Welcome to FinTect. A great money management app!</p>
         
         <form action="" method="post">
+            <input placeholder="Enter business owner name" class="login-user-email-input" name="owner-name" type="text">
             <input placeholder="Enter business name" class="login-user-email-input" name="registration-name" type="text">
             <input placeholder="Enter business email" class="login-user-email-input" name="registration-email" type="text">
             <input placeholder="Enter password" class="login-user-password-input" name="registration-password" type="text">
             <input placeholder="Enter TIN number" class="login-user-email-input" name="registration-tin-number" type="text">
-
-            <span class="have-account-txt other-login-txt">Already have an account?</span><a href="../../layouts/views/login_view.php" class="">Log in</a>
+            <label for="">Select business type</label>
+                <select class="business_type" name="business-type" id="">
+                    <option selected value=""></option>
+                    <option value="food">Food</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="transport">Transport</option>
+                    <option value="resturant">Resturant</option>
+                    <option value="others">Others</option>
+                </select>
+            <p class="have-account-txt other-login-txt">Already have an account?</p><a href="../../layouts/views/login_view.php" class="">Log in</a>
             <a href="#" class="login-btn" name="sign-up">Sign Up</a>
         </form>
         <p class="other-login-txt">Login with others</p>

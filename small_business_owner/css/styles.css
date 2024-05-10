@@ -494,5 +494,15 @@ registration-logo{
 }
 
 .registration-div{
-    height: 90vh;
+    height: 100vh;
+}
+
+.business_type{
+    margin: 10px;
+    width: 60%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(0, 78, 203);
+
 }

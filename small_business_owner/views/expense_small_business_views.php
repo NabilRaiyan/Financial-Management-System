@@ -32,7 +32,6 @@
                     <option value="marketing">Marketing</option>
                     <option value="transport">Transport</option>
                     <option value="others">Others</option>
-
                 </select>
                 <a class="add-savings-btn" type="submit" href="#">Add Expense</a>
             </form>
