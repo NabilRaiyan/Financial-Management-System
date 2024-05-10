@@ -8,8 +8,8 @@
                 foreach($allServiceResult as $rows){
                     echo "<div class='service-card' data-aos='fade-right' data-aos-duration='1000'>";
                        echo '<h1 class="card-title">'. $rows['usertype'].'</h1>';
-                        echo '<h2 class="card-subtitle">Free</h2>';
-                        echo '<p class="money">'. $rows['money'] . '<br> per user/month</p>';
+                        echo '<h2 class="card-subtitle">only</h2>';
+                        echo '<p class="money">$'. $rows['money'] . '<br> per user/month</p>';
                         echo '<a class="sign-up-btn" href='. './services_view.php?userTypeId='. $rows['u_id'] .'>Sign Up</a>';
                 
                         echo '<div class="feature-list">';
