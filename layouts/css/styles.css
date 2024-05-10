@@ -727,16 +727,16 @@ service page style */
 }
 
 .login-btn{
-    text-decoration: none;
     font-family: var(--body-text);
-    font-weight: 800;
+    font-weight: 700;
     background-color: rgb(28, 255, 153);
     color: var(--title-text-color);
-    width: 70px;
+    width: 80px;
     padding: 10px;
     border-radius: 7px;
     position: relative;
     left: 170px;
+    border: 1px solid var(--body-text-color);
 }
 
 .login-btn:hover{

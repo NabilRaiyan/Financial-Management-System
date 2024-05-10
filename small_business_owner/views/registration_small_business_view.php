@@ -1,3 +1,6 @@
+<?php include "../controllers/small_business_registration_controller.php"; ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,12 +20,17 @@
         <h1 class="login-title">Sign Up</h1>
         <p class="login-subtitle">Welcome to FinTect. A great money management app!</p>
         
-        <form action="" method="post">
+        <form action="" method="POST">
             <input placeholder="Enter business owner name" class="login-user-email-input" name="owner-name" type="text">
+            <?php echo '<p class="error" for="">'.$business_owner_name_error.'</p>'; ?>
             <input placeholder="Enter business name" class="login-user-email-input" name="registration-name" type="text">
+            <?php echo '<p class="error" for="">'.$business_name_error.'</p>'; ?>
             <input placeholder="Enter business email" class="login-user-email-input" name="registration-email" type="text">
+            <?php echo '<p class="error" for="">'.$business_email_error.'</p>'; ?>
             <input placeholder="Enter password" class="login-user-password-input" name="registration-password" type="text">
+            <?php echo '<p class="error" for="">'.$business_pass_error.'</p>'; ?>
             <input placeholder="Enter TIN number" class="login-user-email-input" name="registration-tin-number" type="text">
+            <?php echo '<p class="error" for="">'.$business_tin_num_error.'</p>'; ?>
             <label for="">Select business type</label>
                 <select class="business_type" name="business-type" id="">
                     <option selected value=""></option>
@@ -32,11 +40,12 @@
                     <option value="resturant">Resturant</option>
                     <option value="others">Others</option>
                 </select>
+                <?php echo '<p class="error" for="">'.$business_type_error.'</p>'; ?>
             <p class="have-account-txt other-login-txt">Already have an account?</p><a href="../../layouts/views/login_view.php" class="">Log in</a>
-            <a href="#" class="login-btn" name="sign-up">Sign Up</a>
+            <button type="submit" class="login-btn" name="Submit">Sign Up</button>
         </form>
         <p class="other-login-txt">Login with others</p>
-        <a href="#" class="google-login-option"><i class="google-icon fa-brands fa-google"></i>Login with google</a>
+        <a href="#" type="submit" class="google-login-option"><i class="google-icon fa-brands fa-google"></i>Login with google</a>
     </div>
 
     <!-- right section -->

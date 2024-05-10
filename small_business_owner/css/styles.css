@@ -494,7 +494,7 @@ registration-logo{
 }
 
 .registration-div{
-    height: 100vh;
+    height: 100%;
 }
 
 .business_type{
@@ -506,3 +506,11 @@ registration-logo{
     border-bottom: 1px solid rgb(0, 78, 203);
 
 }
+
+/* error styling */
+.error{
+    color: red;
+    font-family: var(--body-text);
+    font-weight: 200;
+    font-size: 0.9rem;
+;}
