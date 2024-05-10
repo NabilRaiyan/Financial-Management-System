@@ -152,11 +152,9 @@ if (isset($_REQUEST['Submit'])){
            
         }else{
             $registration_error_message = "Registration unsuccessful. Please try again with proper information." . $conObj->error;
-        }
-        }
+        }}
         else{
             $registration_error_message = "Registration unsuccessful. Please try again with proper information." . $conObj->error;
-
         }
 }
 
