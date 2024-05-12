@@ -93,7 +93,6 @@ if (isset($_REQUEST['Submit'])){
             }
         }
 
-
         // monthly income validation
         if (empty($_REQUEST['registration-monthly-income'])){
             $business_monthly_income_error = "Please enter monthly income";
