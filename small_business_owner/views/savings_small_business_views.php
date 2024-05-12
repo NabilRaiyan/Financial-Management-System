@@ -15,7 +15,7 @@
                 <h3 class="balance-amount">$40,0000</h3>
         </div>
 
-        
+
         <!-- add savings -->
         <div class="add-savings">
             <h2 class="add-savings-title">Enter your savings</h2>
@@ -52,11 +52,6 @@
     </div>
     
 </div>
-
-
-
-
-
 
 
 <!-- animation on scroll js  -->
