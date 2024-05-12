@@ -110,8 +110,6 @@ if (isset($_REQUEST['Submit'])){
                 $hasError = 1;
             }
         }
-
-
         
 
         // business name validation
