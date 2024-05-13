@@ -3,7 +3,7 @@
     class Model {
         // connection open
         function OpenCon(){
-            $conn = new mysqli("localhost", "root", "", "FinancialManagementSystem");
+            $conn = new mysqli("localhost", "root", "", "financialmanagementsystem");
             return $conn;
         }
 

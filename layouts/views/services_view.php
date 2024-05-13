@@ -13,9 +13,7 @@
 
     <div class="service-card-list">
         <?php 
-            
-            include "./service_card_view.php";
-            
+            include "./service_card_view.php";  
          ?>
     </div>
 
