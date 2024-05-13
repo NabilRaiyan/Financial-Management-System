@@ -24,7 +24,7 @@ include "./subheader_small_business_views.php"; ?>
         <div class="add-savings">
             <h2 class="add-savings-title">Enter your Expenses</h2>
             <form action="" method="post" class="add-savings-form" id="expences">
-                <div class="getid"><input type="text" id="expense_id"></div>
+                <div class="getid"><input type="text" class="savings-name-input" id="expense_id" placeholder="Id" disabled></div>
                 <input type="text" class="savings-name-input" id="expense-name" placeholder="Expense name">
                 <input type="text" class="savings-amount-input" id="expense-amount" placeholder="Expense amount">
 
