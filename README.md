@@ -2,6 +2,9 @@
 
 Introducing our Financial Management System web application, created using PHP, HTML, CSS, JavaScript, and MySQL technologies.
 
+
+
+
 ## Table of Contents
 - [Features](#features)
 - [Getting Started](#getting-started)
@@ -34,16 +37,16 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
    ```bash
-   https://github.com/NabilRaiyan/Financial-Management-System.git ```
+   https://github.com/NabilRaiyan/Financial-Management-System.git
 
 2. Open XAMPP and Run
    - Ensure you have PHP and XAMPP installed.
-3. Connect with Apache and mysql server
+3. Connect with Apache and MySQL server
    
 4. Navigate to the localhost:80/your-project-path
 
 
-## Users: There are total 4 users.
+## Users: There are a total of 4 users.
   - Business 
   - Personal
   - Homeowner
@@ -59,6 +62,7 @@ Make sure you have the following installed on your machine:
 1. PHP
 2. XAMPP
 3. MySQL
+
 
 
 
