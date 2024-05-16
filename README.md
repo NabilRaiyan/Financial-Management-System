@@ -1,4 +1,4 @@
-![423542073_344799797879481_2156090808246113281_n](https://github.com/NabilRaiyan/Financial-Management-System/assets/31074461/ef33c13f-1a97-440e-8365-7cf22a9cd3a2)# Financial Management System
+# Financial Management System
 
 Introducing our Financial Management System web application, created using PHP, HTML, CSS, JavaScript, and MySQL technologies.
 
