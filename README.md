@@ -60,7 +60,6 @@ Make sure you have the following installed on your machine:
   - Homeowner
   - Admin and employees
 
-
 ### Contributors:
 
 1. nafiurrahmanniloy
