@@ -13,7 +13,6 @@ Introducing our Financial Management System web application, created using PHP, 
 
 
 
-
 ## Table of Contents
 - [Features](#features)
 - [Getting Started](#getting-started)
