@@ -12,7 +12,6 @@ Introducing our Financial Management System web application, created using PHP, 
 ![431280704_704075475222151_2643782550453073624_n](https://github.com/NabilRaiyan/Financial-Management-System/assets/31074461/4334aa18-6ab1-4dc3-a8a4-5f04effbd4cc)
 
 
-
 ## Table of Contents
 - [Features](#features)
 - [Getting Started](#getting-started)
